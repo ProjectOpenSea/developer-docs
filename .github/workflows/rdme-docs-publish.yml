@@ -20,4 +20,4 @@ jobs:
       - name: Run `docs:prune` command 🚀
         uses: readmeio/rdme@v8
         with:
-          rdme: docs:prune . --key=${{ secrets.README_API_KEY }} --version=3
+          rdme: docs:prune . --key=${{ secrets.README_API_KEY }} --version=3 --confirm
